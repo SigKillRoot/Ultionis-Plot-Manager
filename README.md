@@ -4,14 +4,14 @@ cd ~
 
 git clone https://github.com/SigKillRoot/Ultionis-Plot-Manager.git
 
-cd SigKillRoot
+cd ~/SigKillRoot/Ultionis-Plot-Manager/
 
 chmod +x upm.sh
 
 #-----
 #To run
 
-cd SigKillRoot
+cd ~/SigKillRoot/Ultionis-Plot-Manager/
 
 ./upm.sh
 
