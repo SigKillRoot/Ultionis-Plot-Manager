@@ -152,7 +152,7 @@ let xxx=$xxx+1
 	sleep 1
     echo "Starting next plot"
     echo "Plot # " $xxx
-    echo "./chia_plot" -p $poolactual -f $farmactual -t $temp"/" -2 $temp2"/" -d $dest"/ -r "$thread" -u "$buck
+eval ./chia_plot -p $poolactual -f $farmactual -t $temp"/" -2 $temp2"/" -d $dest"/ -r "$thread" -u "$buck
     sleep 5
     eval
     echo "Removing temp files"
@@ -163,5 +163,5 @@ let xxx=$xxx+1
 	eval
     echo "Continuing loop"
    	continue
-	done
+done
 
